@@ -1,3 +1,4 @@
+# before inheritance
 class Dog
 
   attr_reader :name
@@ -7,5 +8,11 @@ class Dog
     @name = name
     @mood = 'nervous'
   end
+
+end
+
+# after inheritance
+
+class Dog < Animal
 
 end
